@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <link rel="stylesheet" type="text/css"href="css\index.css">
+    <title>OPOU Midterms</title>
+  </head>
+
+  <body style="background-color:PEACHPUFF;">
+  <div id="header">
+    <p class="title" align="center">
+	Mobile App 
+    </p>
+<center>
+<p style="font-family: Courier Bold; font-style: italic; font-size: 20px; color: white;">Click a button:</p>
+</center> 
+</div>
+    
+    <div class="footer" id="map"></div>
+    <div>	
+    <button class="btn" onclick="getBattery()">Battery</button>
+    <button class="btn btn2" onclick="getMapLocation()">Location</button>
+    <button class="btn btn3" onclick="vibratePhone()">Vibrate</button>
+    <button class="btn btn4" onclick="openCamera()">Camera</button>	
+    	
+    </div>
+	
+    <div class="footer">
+    <p id="batt"></p>
+    <img id="photo" src="" />	
+    <div> 
+    
+    	
+	
+    
+ 	
+  
+    <script type="text/javascript" src="js\index.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+  </body>
+
+</html>
